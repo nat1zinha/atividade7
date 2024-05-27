@@ -9,6 +9,8 @@
     --main-background: #082f49 ;
     --text-color: #e0f2fe;
     --nav-background:#0c4a6e;
+    --a-color:#b6d8ee;
+    --a-hover:#06b6d4;
 }
 
 body{
@@ -32,4 +34,14 @@ nav{
 
 ul, li{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--a-color);
+    font-weight: bolder;
+}
+
+a:hover{
+    color: var(--a-hover);
 }
